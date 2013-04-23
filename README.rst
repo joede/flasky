@@ -1,7 +1,9 @@
 flasky
 ======
 
-Pelican theme I created for fjavieralba.com
+This is a Pelican theme F. Javier Alba has created for his blog fjavieralba.com
+
+My intension for this fork is a modification to fit my needs. I plan to make the theme scalable and may add a mobile edition.
 
 In order to correctly use this theme you will need this variables in your pelican conf.py::
 

@@ -1,12 +1,14 @@
-flasky
-======
+# flasky
 
-This is a Pelican theme F. Javier Alba has created for his blog fjavieralba.com
+This is a Pelican theme [F. Javier Alba](https://github.com/fjavieralba/flasky)
+has created for his blog fjavieralba.com
 
-My intension for this fork is a modification to fit my needs. I plan to make the theme scalable and may add a mobile edition.
+My intension for this fork is a modification to fit my needs. I plan to make
+the theme scalable and may add a mobile edition.
 
-In order to correctly use this theme you will need this variables in your pelican conf.py::
+In order to correctly use this theme you will need this variables in your `pelicanconf.py`:
 
+~~~~~ {.python}
     AUTHOR = u'Your Name'
     SITENAME = u"Your site name"
     SITEURL = 'blog'
@@ -55,5 +57,4 @@ In order to correctly use this theme you will need this variables in your pelica
 
     # A list of files to copy from the source to the destination
     #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
-
-
+~~~~~

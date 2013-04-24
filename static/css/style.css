@@ -119,7 +119,7 @@ div.entry-overview div.date         { float: left; width: 120px; color: #888;
 img.align-center        { margin: 15px auto; display: block; }
 
 /* pages */
-/* div.page > div.title > h1   { color: #888 } */
+div.page >  h1.title    { font-weight: normal; }
 
 /* pagination */
 div.pagination          { margin: 36px 0 0 0; text-align: center; }

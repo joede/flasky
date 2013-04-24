@@ -58,3 +58,7 @@ In order to correctly use this theme you will need this variables in your `pelic
     # A list of files to copy from the source to the destination
     #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 ~~~~~
+
+Here is a sample of the current (unfinished and unpolished) state:
+
+![screenshot](https://raw.github.com/joede/flasky/master/screenshot.jpg)

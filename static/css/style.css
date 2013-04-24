@@ -5,25 +5,39 @@
 
 /* general style */
 body    { font: 18px/25px 'Lora', 'PT Sans', 'Times', serif;
+	  background-image: -moz-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
+	  background-image: -webkit-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
           margin: 0; padding: 0; }
-a       { /*color: #432165;*/ color: #234764; }
-a:hover { color: #3b185f; background: #f9f8fa; }
+a       { color: #234764; text-decoration: underline; }
+a:hover { color: #09c; /*color: #3b185f; background: #f9f8fa;*/ }
 
 /* headlines */
-h1, h2, h3, h4, h5, h6      { /*font-family: 'Vollkorn', 'Georgia', serif;*/
-                              font-family: 'Oswald', Helvetica, Arial, sans-serif;
+#site-title {
+	color: #000;
+	font-family: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	text-decoration: none;
+	margin: 0px;
+	text-shadow: 1px 1px 0 #f5f5f5, 2px 2px 0 #666;
+/*	text-transform: uppercase; */
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6      { font-family: 'Oswald', Helvetica, Arial, sans-serif;
                               font-weight: normal; color: #222; /*color: #AF3D04;*/ }
 h1 a, h2 a, h3 a, h4 a,
 h5 a, h6 a                  { text-decoration: none; }
 h1 a:hover, h2 a:hover,
-h3 a:hover, h4 a:hover      { color: #432165; text-decoration: underline; }
+h3 a:hover, h4 a:hover      { color: #09c; text-decoration: none; }
 h1.title                    { width: 75%; }
 h1, h2                      { margin: 10px 0 25px 0; }
 h1                          { font-size: 48px; line-height: 52px; }
 h2                          { font-size: 36px; line-height: 40px; }
 
 /* layout elements */
-div.container               { min-width: 500px; width: 80%; margin: 10% auto; padding: 0; }
+div.container               { min-width: 500px; width: 80%; margin: 0 auto; padding: 0; }
+div.title-container         { width: 100%; min-height: 100px; padding-top: 30px; float: left; }
 div.header                  { float: left; }
 div.navigation              { float: left; }
 div.navigation a            { text-decoration: none; 
@@ -31,7 +45,7 @@ div.navigation a            { text-decoration: none;
                               padding: 10px;
                             }
 
-div.separator               {border-bottom: 1px dotted #ddd; padding-bottom: 42px;
+div.separator               { border-bottom: 1px dotted #ddd; padding-bottom: 42px;
                               margin-bottom: 42px; font-size: 16px; color: #888;
                               text-align: center;}
 div.header, div.navigation  { height: 25px; margin-bottom: 42px; }

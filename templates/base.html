@@ -12,6 +12,10 @@
   </head>
   <body>
     <div class=container>
+        {% block sitetitle %}
+            {% include "site-title.html" %}
+        {% endblock %}
+
         {% block header %}
             {% include "header.html" %}
         {% endblock %}

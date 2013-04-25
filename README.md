@@ -6,7 +6,19 @@ has created for his blog fjavieralba.com
 My intension for this fork is a modification to fit my needs. I plan to make
 the theme scalable and may add a mobile edition.
 
-In order to correctly use this theme you will need this variables in your `pelicanconf.py`:
+DONE:
+
+* scaleable: the width is now scalable.
+* blockqoutes are formatted now.
+* a site tile is shown with it's one style.
+
+TODO:
+
+* the pygments style is used for code and for normal verbatim blocks. I don't
+  know how Pelican distinguish between code and verbatim.
+
+In order to correctly use this theme you will need this variables in your
+`pelicanconf.py`:
 
 ~~~~~ {.python}
     AUTHOR = u'Your Name'

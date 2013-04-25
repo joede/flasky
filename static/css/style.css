@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 /* general style */
-body    { font: 18px/25px 'Lora', 'PT Sans', 'Times', serif;
+body    { font: 18px 'Lora', 'PT Sans', 'Times', serif;
 	  background-image: -moz-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
 	  background-image: -webkit-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
           margin: 0; padding: 0; }
@@ -25,10 +25,11 @@ h1 a, h2 a, h3 a, h4 a,
 h5 a, h6 a                  { text-decoration: none; }
 h1 a:hover, h2 a:hover,
 h3 a:hover, h4 a:hover      { color: #09c; text-decoration: none; }
-h1.title                    { width: 75%; font-weight: bold; text-shadow: 1px 1px 0 #f5f5f5, 2px 2px 0 #666;}
-h1, h2                      { margin: 10px 0 25px 0; }
-h1                          { font-size: 48px; line-height: 52px; }
-h2                          { font-size: 36px; line-height: 40px; }
+h1.title                    { width: 75%; font-weight: bold; margin-bottom:0.5em;
+                              text-shadow: 1px 1px 0 #f5f5f5, 2px 2px 0 #666;}
+h1, h2                      { margin: 0.75em 0 0.3em 0; }
+h1                          { font-size: 2em; line-height: 40px; }
+h2                          { font-size: 1.5em; line-height: 28px; }
 
 /* layout elements */
 div.container               { min-width: 500px; width: 80%; margin: 0 auto; padding: 0; }
@@ -57,13 +58,13 @@ div.social ul               { margin: 0; padding: 0; list-style: none; }
 div.social ul li            { display: inline; margin: 0 2px; padding: 0; }
 
 /* margins and stuff */
-p, div.line-block, ul, ol,
-  pre, table                { margin: 25px 0 25px 0; }
-dt                          { margin: 25px 0 16px 0; padding: 0; }
-dd                          { margin: 16px 0 25px 40px; padding: 0; }
-ul ol, ol ul, ul ul, ol ol  { margin: 10px 0; padding: 0 0 0 40px; }
+p, div.line-block, ul, ol   { margin: 0.5em 0 0.5em 0; }
+pre, table                  { margin: 1.5em 0 1.5em 0; }
+dt                          { margin: 0.75em 0 0.5em 0; padding: 0; }
+dd                          { margin: 0.5em 0 0.5em 40px; padding: 0; }
+ul ol, ol ul, ul ul, ol ol  { margin: 0.5em 0; padding: 0 0 0 40px; }
 li                          { padding: 0; }
-h1 + p.date                 { margin-top: -20px; font-style: italic; }
+h1 + p.date                 { margin-top: -1em; font-style: italic; }
 
 /* code formatting.  no monospace because of webkit (bug?) */
 pre, code, tt	    { font-family: 'Consolas', 'Deja Vu Sans Mono',

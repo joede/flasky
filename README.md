@@ -11,6 +11,7 @@ DONE:
 * scaleable: the width is now scalable.
 * blockqoutes are formatted now.
 * a site tile is shown with it's one style.
+* show name of the author if `SINGLE_AUTHOR` is set to `True`
 
 TODO:
 
@@ -22,6 +23,7 @@ In order to correctly use this theme you will need this variables in your
 
 ~~~~~ {.python}
     AUTHOR = u'Your Name'
+    SINGLE_AUTHOR = False
     SITENAME = u"Your site name"
     SITEURL = 'blog'
     TIMEZONE = "Europe/Madrid"

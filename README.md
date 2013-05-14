@@ -12,6 +12,8 @@ DONE:
 * blockqoutes are formatted now.
 * a site tile is shown with it's one style.
 * show name of the author if `SINGLE_AUTHOR` is set to `True`
+* display summary of an article if no excerpt is available. Use `DISPLAY_ARTICLE_SUMMARY`
+  to configure this.
 
 TODO:
 
@@ -41,6 +43,8 @@ In order to correctly use this theme you will need this variables in your
     'en': '%d %m %Y'
     }
     DEFAULT_DATE_FORMAT = '%d %m %Y'
+
+    DISPLAY_ARTICLE_SUMMARY = False
 
     DISQUS_SITENAME = "your_disqus_user"
     TWITTER_USERNAME = 'your_twitter_user_without @'

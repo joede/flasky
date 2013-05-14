@@ -14,7 +14,16 @@
           {% if article.author and not SINGLE_AUTHOR %}
 	    <span class="byline">By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span><br>
           {% endif %}
-          <div class=summary><p> {{ article.excerpt }}</p></div>
+          <div class=summary><p>
+          {% if article.excerpt %}
+            {{ article.excerpt }}
+          {% else %}
+            {% if DISPLAY_ARTICLE_SUMMARY %}
+              <br>
+              {{ article.summary }}
+            {% endif %}
+          {% endif %}
+          </p></div>
       </div>
     </div>
   {% endfor %}
